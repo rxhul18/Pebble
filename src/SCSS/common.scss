@@ -1,0 +1,48 @@
+// :root{
+//     --secondFont:var('Signika Negative', sans-serif)
+//     // --fontColor:var("#002d46")
+// }
+
+.coontainer{
+    width: 80% !important;
+    margin: 0 auto;
+    @media (max-width:768px) {
+        width: 94% !important;
+        margin: 0 auto;
+    }
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 400;
+}
+.price{
+    h2{
+        font-size: 22px;
+        font-weight: 600;
+        margin-right: 6px;
+        font-family: var(--secondFont);
+    }
+    span{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .offer{
+        color: #FF6D5C;
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 5px;
+    }
+}
+.upper-one{
+    color: #919291;
+    font-weight: 400;
+    padding: 0 !important;
+    font-size: 18px;
+    margin-top: 7px !important;
+    font-family: var(--secondFont);
+}
+
+.row-off{
+    margin: 0 !important;
+}

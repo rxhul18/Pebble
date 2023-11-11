@@ -1,0 +1,240 @@
+:root{
+    --secondFont:'Signika Negative', sans-serif;
+    --fontColor:#002d46;
+}
+
+.part-1{
+    .mt-caro{
+        margin-top: 32px;
+        margin-bottom: 32px;
+        .carousel-indicators{
+            button{
+                width: 11px !important;
+                height: 11px !important;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .exploreColl{
+        font-family: var(--secondFont);
+        color: var(--fontColor);
+        margin-top: 2.5rem;
+    }
+
+    .row{
+        .mt-4{
+            .main-card{
+                padding: 2.9rem 0;
+                width: 80%;
+                background-color: #f3f3f3;
+                border-radius: 12px;
+                @media (max-width:1100px) {
+                    width: 90%;
+                }
+                @media (max-width:768px) {
+                    width:95%
+                }
+                a{
+                    img{
+                        height: 100%;
+                        object-fit: contain;
+                        max-height: 152px;
+                        @media (max-width:768px) {
+                            max-height: 100px;
+                        }
+                    }
+                }
+                h3{
+                    font-size: 21px;
+                    font-weight: 700;
+                    @media (max-width:768px) {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+    h2{
+        font-family: var(--secondFont);
+        color: var(--fontColor);
+    }
+
+    .newLaunches{
+        margin-right: 0 !important;
+        .launchCard{
+            padding-bottom: 2rem;
+            width: 90%;
+            .common-font{
+                    font-size: 1rem;
+                    padding: 4px 1rem 4px 1rem ;
+                    background-color: lightgreen;
+                    border-radius: 0 6px 6px 0;
+                    @media (max-width:990px) {
+                        padding: 2.5px 0.7rem;
+                        font-size: 14px;
+                    }
+            }
+            img{
+                // width: 93%;
+                padding: 20px;
+                transition: 0.3s ease-in-out;
+                &:hover{
+                padding: 5px;
+                    // width: 96%;
+                }
+            }
+            .product-info{
+                .specification{
+                    font-size: 16px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    color: #919291;
+                    font-weight: 300;
+                }
+                
+            }
+        }
+    } 
+}
+
+.ratingAndMore{
+    .row{
+        img{
+            width: 74px;
+            height: 74px;
+            @media (max-width:990px) {
+                width: 55px;
+                height: 55px;
+            }
+        }
+    }
+}
+
+.part-2{
+    .cosmosgrande-card{
+        h2{
+            font-family: var(--secondFont);
+            color: var(--fontColor);
+            margin-bottom: 10px;
+        }
+        .productVideoApi{
+            padding-bottom: 2rem;
+            .video-part{
+                video{
+                    border-radius: 10px !important;
+                    width: 100%;
+                }
+            }
+            .content-part{
+                .col-md-7{
+                    .upper-part{
+                        h3{
+                            font-style: 20px;
+                            font-family: var(--secondFont);
+                            color: var(--fontColor);
+                        }
+                        p{
+                            font-size: 0.85rem;
+                            font-weight: 400;
+                            margin: 0;
+                            padding: 0;
+                            color: #919291;
+                        }
+                    }
+                    .lower-part{
+                        button{
+                            width: 100%;
+                            color: white;
+                            background-color: #00B9AA;
+                            height: 3.2rem;
+                            // font-family: var(--secondFont);
+                            border-radius: 5px;
+                            border: 0px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// .offical-parter{
+//     h2{
+//         font-family: var(--secondFont);
+//         color: var(--fontColor);
+//     }
+//     .row{
+//         .col-md-6{
+//             .col-md-3{
+//                 display: flex;
+//                 justify-content: center;
+//                 .card{
+//                     width: 90%;
+//                     background-color: #f3f3f3;
+//                     border: none;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .officalPartner{
+//     .offcParParent{
+//         // width: 100%;
+//         // display: flex;
+//         .offcParChild{
+//             // width: 15%;
+//             border: none;
+//             background-color: #f3f3f3;
+//             // padding: .7rem;
+//             margin: .7rem; 
+//             img{
+//                 width: 90%;
+//                 margin: 0 auto;
+//             }
+//         }
+//     }
+// }
+
+.expPebble{
+    @media (max-width:768px) {
+        img{
+            width: 55px;
+        }
+    }
+}
+
+.press{
+    h2{
+        font-family: var(--secondFont);
+        color: var(--fontColor);
+        margin-bottom: 10px;
+    }
+    img{
+        border-radius: 1.5rem !important;
+    }
+    p{
+        color: #919291;
+        font-size: 1.3rem;
+        a{
+            text-decoration: underline;
+            color: black;
+            font-style: italic;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.gifting{
+    h2{
+        font-family: var(--secondFont);
+        color: var(--fontColor);
+        margin-bottom: 10px;
+    }
+    video{
+        width:100%;
+        height: 80%;
+    }
+}
