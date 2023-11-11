@@ -1,9 +1,8 @@
 {
-  "homepage": "https://rxhul18.github.io/pebble/",
+  "homepage": "https://rxhul18.github.io/Pebble/",
   "name": "pebble",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rxhul18.github.io/pebble",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
