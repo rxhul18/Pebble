@@ -6,9 +6,11 @@ import personIcon from '../Assets/logo & icon/human.png'
 import cartIcon from '../Assets/logo & icon/cart.png'
 import {Link} from 'react-router-dom'
 
+
+
 function navbar() {
   return (
-    <div className="coontainer">
+    <div data-aos="fade-right" className="coontainer">
         <div className="row">
             <div className="col-2">
               <Link to="/"><img src={pebbleLogo} className="m-3 img-fluid"/></Link>
@@ -16,16 +18,16 @@ function navbar() {
             <div className="col-8">
               <ul >
                 <li>
-                  <Link to='/smartwatch'><a href='#'>SMART WATCHES</a></Link>
+                  <Link to='/smartwatch'>SMART WATCHES</Link>
                 </li>
                 <li>
-                  <Link to='/headphone'><a href='#'>HEADPHONES</a></Link>
+                  <Link to='/headphone'>HEADPHONES</Link>
                 </li>
                 <li>
-                  <Link to='/speaker'><a href='#'>WIRELESS SPEAKERS</a></Link>
+                  <Link to='/speaker'>WIRELESS SPEAKERS</Link>
                 </li>
                 <li>
-                  <Link to='/accesosiers'><a href='#'>ACCESSOIRES</a></Link>
+                  <Link to='/accesosiers'>ACCESSOIRES</Link>
                 </li>
               </ul>
             </div>

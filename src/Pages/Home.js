@@ -16,7 +16,7 @@ function Home(params) {
     <div className=" main-wrapper">
         <div className='coontainer part-1'>
 
-            <div id="carouselExampleIndicators" className="carousel slide mt-caro" data-bs-ride="true">
+            <div data-aos="flip-left"  id="carouselExampleIndicators" className="carousel slide mt-caro" data-bs-ride="true">
                 <div className="carousel-indicators gap-3">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -45,7 +45,7 @@ function Home(params) {
 
             <h2 className="exploreColl">Explore Collections</h2>
 
-            <div className="row my-3">
+            <div data-aos="zoom-out-right" className="row my-3">
                 {exploreApi.map((data)=>{
                     return(
                         <div className="col-6 col-lg-3 justify-content-center d-flex  mt-4 text-center mt-3">
@@ -63,8 +63,7 @@ function Home(params) {
             <h2>New Launches</h2>
 
 
-
-            <div className='row newLaunches mt-5'>
+            <div data-aos="zoom-out-right" className='row newLaunches mt-5'>
 
                 {newLaunches.map((data)=>{
                     return(
@@ -100,7 +99,7 @@ function Home(params) {
             </div>
         </div>
 
-        <div className='ratingAndMore border-top border-bottom mb-4'>
+        <div data-aos="fade-down-left" className='ratingAndMore border-top border-bottom mb-4'>
             <div className='row coontainer mt-5 mb-4'>
                 <div className='col-4 d-flex fd-c'>
                     <img src='//cdn.shopify.com/s/files/1/0577/6785/4123/files/1_unit_sold.gif?v=1668739055&width=80' alt="kuch nhi" className='justify-content-center img-fluid m0-a'/>
@@ -129,9 +128,9 @@ function Home(params) {
             </div>
         </div>
 
-        <div className="coontainer part-2">
+        <div  className="coontainer part-2">
             <div className="cosmosgrande-card">
-                <div className="row">
+                <div data-aos="zoom-out-right" className="row">
                     {productVideoApi.map((data)=>{
                         return(
                             <div className='productVideoApi border-bottom my-4'>
@@ -164,7 +163,7 @@ function Home(params) {
             </div>
         </div>
 
-        <div className='coontainer expPebble border-bottom pb-3'>
+        <div data-aos="fade-down-left" className='coontainer expPebble border-bottom pb-3'>
             <h2 className='mb-3' style={{fontFamily:"var(--secondFont)"}}>Experience Pebble</h2>
             <div className='row'>
                 {expPebble.map((data)=>{
@@ -181,7 +180,7 @@ function Home(params) {
         </div>
 
         {/* Press Section */}
-        <div className='press border-bottom'>
+        <div data-aos="fade-down-left" className='press border-bottom'>
             <div className='row d-flex coontainer'>
             <h2 className="exploreColl mt-4">In The Press</h2>
             {press.map((data)=>{
@@ -195,7 +194,7 @@ function Home(params) {
 
 
         {/* Gifting Section */}
-        <div className='gifting border-bottom'>
+        <div data-aos="flip-left" className='gifting border-bottom'>
             <div className='coontainer'>
             <h2 className="exploreColl mt-4">Pebble Gifting Edition</h2>
             <video src={giftingVideo} controls className='rounded-4'></video>

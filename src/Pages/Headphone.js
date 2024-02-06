@@ -1,9 +1,11 @@
-
+import {Link} from 'react-router-dom';
 
 function headphone(params) {
     return(
         <div className="cootanier">
-            <>hiii this meassage is from headphone page</>
+            <>Hii headphone page is  Construction  <Link to='/' >
+                        Go On Home page
+                    </Link></>
         </div>
     )
 }
