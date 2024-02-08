@@ -7,7 +7,10 @@ import Heaphones from './Pages/Headphone'
 import Speakers from './Pages/Speakers'
 import Accesosiers from './Pages/Accessories'
 import Offer from './Components/offer'
-import { createContext } from 'react';
+import { createContext , useEffect} from 'react';
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const GlobalStore = createContext()
 
@@ -19,7 +22,19 @@ const GlobalStoreData = {
   textColor:"#664d03"
 }
 
+
 function App() {
+
+
+  useEffect(() => {
+    AOS.init({
+      // once: true,
+      // disable: "phone",
+      duration: 2000,
+      // easing: "ease-out-cubic",
+    });
+  }, []);
+
   return (
     <div className="App">
 <GlobalStore.Provider value={GlobalStoreData}>

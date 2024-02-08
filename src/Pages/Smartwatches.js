@@ -1,9 +1,10 @@
 
+import {Link} from 'react-router-dom';
 
 function smartwatches(params) {
     return(
         <div className="cootanier">
-            <>hiii this meassage is from smartwatches page</>
+            <p>Smartwatches Page Is under Construction <Link to='/'> Go to Home page</Link></p>
         </div>
     )
 }
