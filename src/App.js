@@ -22,6 +22,7 @@ const GlobalStoreData = {
   textColor:"#664d03"
 }
 
+
 function App() {
 
 
