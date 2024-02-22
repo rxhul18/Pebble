@@ -1,4 +1,4 @@
-import '../SCSS/common.scss';
+import './SCSS/common.scss';
 import './SCSS/home.scss';
 // import pressNews from '../Components/NewsPress';
 import productVideoApi from '../api/HomePage/productVideoApi';
@@ -10,6 +10,7 @@ import expPebble from '../api/HomePage/expPebble';
 import press from '../api/HomePage/press';
 // import offPartnerApi from '../api/HomePage/offPartnerApi';
 import giftingVideo from '../Assets/homePage/video/giftingVid.mp4'
+import Footer from '../Components/Footer';
 
 function Home(params) {
    return(
@@ -202,7 +203,7 @@ function Home(params) {
             </div>
         </div>
 
-
+        <Footer />
     </div>
    )
 }

@@ -1,0 +1,120 @@
+#footer{
+    background-color: #002d46;
+    color: #f0f8ff;
+    padding-top: 4.3rem!important;
+    .brand{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-right: 1.5rem;
+        img{
+            max-width: min(100%,200px);
+        }
+        p{
+            font-family: var(--secondFont);
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: .04rem;
+            text-align: justify;
+        }
+    }
+    .details{
+        p{
+            color: #00b9aa;
+            font-size: 18.5px;
+            font-weight: 800;
+            padding-bottom: 0.7rem;
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                margin-bottom: 3px!important;
+                a{
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 500;
+                    position: relative;
+                    text-decoration: none;
+                }
+                a::before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 1px;
+                    border-radius: 2px;
+                    background-color: rgb(255, 255, 255);
+                    bottom: -2px;
+                    left: 0;
+                    transform-origin: right;
+                    transform: scaleX(0);
+                    transition: transform .3s ease-in-out;
+                  }
+                  
+                  a:hover::before {
+                    transform-origin: left;
+                    transform: scaleX(1);
+                  }
+            }
+        }
+    }
+    .get-in-touch{
+        padding-left: 2rem!important;
+        p{
+            color: #00b9aa;
+            font-size: 18.5px;
+            font-weight: 800;
+            padding-bottom: 0.8rem;
+        }
+        span{
+            color: #fff;
+            font-size: 15px;
+            font-weight: 400;
+        }
+        .contact{
+            span{
+                color: #fff;
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+        h5{
+            font-size: 17px;
+        }
+        .email{
+            margin: 0;
+            padding: 0 0 0 12px;
+            input{
+                border: 0;
+                height: 2.9rem;
+                width: 100%;
+                color: grey;
+                font-style: italic;
+                padding-left: 4%;
+            }
+        }
+        .subscribe{
+
+            button{
+                background-color: #0000;
+                border: 1.5px solid #fff;
+                border-radius: 5px;
+                color: #fff;
+                font-size: 15px;
+                font-weight: 700;
+                height: 2.9rem;
+                margin: 0;
+                padding: 0 1.1rem;
+                width: auto;
+            }
+        }
+    }
+    
+    .copywrite{
+        p{
+            font-family: var(--secondFont);
+            font-weight: 400;
+        }
+    }
+}

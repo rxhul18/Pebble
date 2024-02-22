@@ -1,9 +1,9 @@
-import '../SCSS/common.scss'
-import '../SCSS/navbar.scss'
-import pebbleLogo from "../Assets/logo & icon/pebbleLogo.png"
-import searchIcon from '../Assets/logo & icon/search.png'
-import personIcon from '../Assets/logo & icon/human.png'
-import cartIcon from '../Assets/logo & icon/cart.png'
+// import './SCSS/common.scss'
+import './SCSS/navbar.scss'
+import pebbleLogo from "../Assets/logoIcon/pebbleLogo.png"
+import searchIcon from '../Assets/logoIcon/search.png'
+import personIcon from '../Assets/logoIcon/human.png'
+import cartIcon from '../Assets/logoIcon/cart.png'
 import {Link} from 'react-router-dom'
 
 function navbar() {

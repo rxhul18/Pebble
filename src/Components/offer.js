@@ -1,4 +1,4 @@
-import '../SCSS/offer.scss'
+import './SCSS/offer.scss'
 
 function offer(params) {
     return(
