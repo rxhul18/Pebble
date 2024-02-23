@@ -1,6 +1,6 @@
 import './SCSS/common.scss';
 import './SCSS/home.scss';
-// import pressNews from '../Components/NewsPress';
+import giftingVideo from '../Assets/homePage/video/giftingVid.mp4'
 import productVideoApi from '../api/HomePage/productVideoApi';
 import carosouleImg1 from '../Assets/homePage/carosalle/image1.webp'
 import carosouleImg3 from '../Assets/homePage/carosalle/image3.webp'
@@ -8,8 +8,6 @@ import exploreApi from '../api/HomePage/exploreCollectionApi'
 import newLaunches from '../api/HomePage/newLaunches'
 import expPebble from '../api/HomePage/expPebble';
 import press from '../api/HomePage/press';
-// import offPartnerApi from '../api/HomePage/offPartnerApi';
-import giftingVideo from '../Assets/homePage/video/giftingVid.mp4'
 import Footer from '../Components/Footer';
 
 function Home(params) {
@@ -196,7 +194,7 @@ function Home(params) {
 
 
         {/* Gifting Section */}
-        <div className='gifting border-bottom'>
+        <div className='gifting border-bottom pb-4'>
             <div className='coontainer'>
             <h2 className="exploreColl mt-4">Pebble Gifting Edition</h2>
             <video src={giftingVideo} controls className='rounded-4'></video>
