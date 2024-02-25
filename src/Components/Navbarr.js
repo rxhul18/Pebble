@@ -5,16 +5,19 @@ import loginIcon from '../Assets/logoIcon/human.png'
 import searchIcon from '../Assets/logoIcon/search.png'
 import cartIcon from '../Assets/logoIcon/cart.png'
 import pebbleLogo from '../Assets/logoIcon/pebbleLogo.png'
+import hamburgerTrue from '../Assets/logoIcon/hamburger2.png'
+import hamburgerFalse from '../Assets/logoIcon/hamburger1.png'
 
 function Navbarr(props) {
   
-    const [hamburger, setHamburger] = useState(); 
+    const [hamburger, setHamburger] = useState(false); 
     
 
     return (
         <div className='coontainer'>
             <nav id='navbar'>
             <div className="logo">
+              <button>{hamburger == false ? <img src={hamburgerFalse} />: <img src={hamburgerTrue} /> }</button>
               <Link to="/"><img src={pebbleLogo} className="m-3 img-fluid"/></Link>
             </div>
             <div className="mainlinks">
