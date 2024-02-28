@@ -1,4 +1,4 @@
-import './SCSS/common.scss';
+import '../common.scss'
 import './SCSS/home.scss';
 import giftingVideo from '../Assets/homePage/video/giftingVid.mp4'
 import productVideoApi from '../api/HomePage/productVideoApi';

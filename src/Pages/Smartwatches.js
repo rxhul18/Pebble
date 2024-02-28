@@ -1,4 +1,4 @@
-import '../Pages/SCSS/common.scss'
+import '../common.scss'
 
 function smartwatches(params) {
     return(
