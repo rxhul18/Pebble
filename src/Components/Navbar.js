@@ -27,16 +27,16 @@ function Navbarr(props) {
             <div className="mainlinks" id={hamburger === true ? 'mobile-view' : null}>
               <ul >
                 <li>
-                  <Link to='/smartwatch'>SMART WATCHES<img src={rightArrow} alt="arrrow icon" /></Link>
+                  <Link to='/smartwatch'>SMART WATCHES<img src={rightArrow} alt="arrrow icon" onClick={burgerClick} /></Link>
                 </li>
                 <li>
-                  <Link to='/headphone'><a href='#'>HEADPHONES</a> <img src={rightArrow} alt="arrrow icon" /></Link>
+                  <Link to='/headphone'><a href='#'>HEADPHONES</a> <img src={rightArrow} alt="arrrow icon" onClick={burgerClick} /></Link>
                 </li>
                 <li>
-                  <Link to='/speaker'><a href='#'>WIRELESS SPEAKERS</a> <img src={rightArrow} alt="arrrow icon" /></Link>
+                  <Link to='/speaker'><a href='#'>WIRELESS SPEAKERS</a> <img src={rightArrow} alt="arrrow icon" onClick={burgerClick} /></Link>
                 </li>
                 <li>
-                  <Link to='/accesosiers'><a href='#'>ACCESSOIRES</a> <img src={rightArrow} alt="arrrow icon" /></Link>
+                  <Link to='/accesosiers'><a href='#'>ACCESSOIRES</a> <img src={rightArrow} alt="arrrow icon" onClick={burgerClick} /></Link>
                 </li>
               </ul>
             </div>
