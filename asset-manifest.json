@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/pebble/static/css/main.01ba9812.css",
-    "main.js": "/pebble/static/js/main.bfd7d4d3.js",
+    "main.css": "/pebble/static/css/main.a8ba0ef0.css",
+    "main.js": "/pebble/static/js/main.0b0445b7.js",
     "static/js/787.8b63c379.chunk.js": "/pebble/static/js/787.8b63c379.chunk.js",
     "static/media/giftingVid.mp4": "/pebble/static/media/giftingVid.bd7a05a95a9744ac3d0e.mp4",
     "static/media/image1.webp": "/pebble/static/media/image1.b46ef1d5a3032a684f20.webp",
     "static/media/image3.webp": "/pebble/static/media/image3.d832a4b64b70f164b8ac.webp",
     "static/media/FooterBrandLogo.avif": "/pebble/static/media/FooterBrandLogo.ecc094f57169dfdd5a33.avif",
     "index.html": "/pebble/index.html",
-    "main.01ba9812.css.map": "/pebble/static/css/main.01ba9812.css.map",
-    "main.bfd7d4d3.js.map": "/pebble/static/js/main.bfd7d4d3.js.map",
+    "main.a8ba0ef0.css.map": "/pebble/static/css/main.a8ba0ef0.css.map",
+    "main.0b0445b7.js.map": "/pebble/static/js/main.0b0445b7.js.map",
     "787.8b63c379.chunk.js.map": "/pebble/static/js/787.8b63c379.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01ba9812.css",
-    "static/js/main.bfd7d4d3.js"
+    "static/css/main.a8ba0ef0.css",
+    "static/js/main.0b0445b7.js"
   ]
 }
