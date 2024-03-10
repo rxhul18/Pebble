@@ -18,11 +18,12 @@ function Navbarr(props) {
     
 
     return (
+      <div style={{width:"100%",backgroundColor:"rgb(250, 250, 250)",padding:"5px"}}>
         <div className='coontainer'>
             <nav id='navbar'>
             <div className="logo">
               <button onClick={burgerClick}>{hamburger === false ? <img src={hamburgerFalse} />: <img src={hamburgerTrue} /> }</button>
-              <Link to="/"><img src={pebbleLogo} className="m-3 img-fluid"/></Link>
+              <Link to="/"><img src={pebbleLogo} className="m-3 img-fluid" /></Link>
             </div>
             <div className="mainlinks" id={hamburger === true ? 'mobile-view' : null}>
               <ul >
@@ -30,7 +31,7 @@ function Navbarr(props) {
                   <Link to='/smartwatch'>SMART WATCHES<img src={rightArrow} alt="arrrow icon" onClick={burgerClick} /></Link>
                 </li>
                 <li>
-                  <Link to='/headphone'><a href='#'>HEADPHONES</a> <img src={rightArrow} alt="arrrow icon" onClick={burgerClick} /></Link>
+                  <Link to='/earphone'><a href='#'>EARPHONES</a> <img src={rightArrow} alt="arrrow icon" onClick={burgerClick} /></Link>
                 </li>
                 <li>
                   <Link to='/speaker'><a href='#'>WIRELESS SPEAKERS</a> <img src={rightArrow} alt="arrrow icon" onClick={burgerClick} /></Link>
@@ -49,6 +50,7 @@ function Navbarr(props) {
             </div>
             </nav>
         </div>
+      </div>
     );
 }
 
