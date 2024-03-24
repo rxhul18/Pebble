@@ -1,61 +1,82 @@
-.main-launch{
-    background-color: #fafafa;
-    display: flex;
-    justify-content: center;
-    border: solid 1px #ecf0f4;
-    .launchCard{
-        padding-bottom: 2rem;
-        width: 98.5%;
-        .common-font{
-                z-index: 1;
-                margin-left: 5px;
-                padding: 3px 1rem 3px 10px;
-                background-color: rgba(144, 238, 144, 0.57);
-                border-radius: 0 6px 6px 0;
-                font-size: 13px;
-                @media (max-width:990px) {
-                    padding: 2.5px 0.7rem;
+#main-card{
+    padding:0 8px;
+    @media (max-width:990px) {
+        padding: 0 5px;
+    }
+    .main-launch{
+        background-color: #fafafa;
+        display: flex;
+        justify-content: center;
+        border: solid 1px #ecf0f4;
+        .launchCard{
+            padding-bottom: 2rem;
+            width: 98.5%;
+            // height: 33rem;
+            .common-font{
+                    z-index: 1;
+                    margin-left: 5px;
+                    padding: 3px 1rem 3px 10px;
+                    background-color: rgba(144, 238, 144, 0.57);
+                    border-radius: 0 6px 6px 0;
+                    font-size: 13px;
+                    @media (max-width:990px) {
+                        font-size: 9px;
+                        padding: 2.5px 0.7rem;
+                    }
+            }
+            img{
+                padding: 5px;
+                transition: 0.3s ease-in-out;
+                aspect-ratio: 1/1;
+                margin: 0 !important;
                 }
-        }
-        img{
-            padding: 5px;
-            transition: 0.3s ease-in-out;
+                .multiphoto{
+                    img{
+                    padding: 3px !important;
+                    border: 0.7px solid #00b9a9a7;
+                    border-radius: 5px;
+                    width: 85%;
+                }
             }
-            .multiphoto{
-                img{
-                padding: 4px !important;
-                border: 0.7px solid #00B9AA;
-                border-radius: 5px;
-                width: 85%;
-            }
-        }
-        .product-info{
-            h2{
-                font-size: 20px;
-                font-weight: 400;
-                text-align: start;
-            }
-            .features{
-                span{
-                    font-size: 11px;
-                    border-radius: 10px;
-                    padding: 5px 8px 4px;
-                    line-height: 1.1;
-                    letter-spacing: -.4px;
-                    color: #1a2024;
+            .product-info{
+                h2{
+                    font-size: 20px;
                     font-weight: 400;
-                    background-color: white;
-                    border: 1px solid rgba(0, 0, 0, .2);
+                    text-align: start;
+                    @media (max-width:990px) {
+                        font-size: 16px
+                    }
                 }
+                .features{
+                    span{
+                        font-size: 11px;
+                        border-radius: 10px;
+                        padding: 5px 8px 4px;
+                        line-height: 1.1;
+                        letter-spacing: -.4px;
+                        color: #1a2024;
+                        font-weight: 400;
+                        background-color: white;
+                        border: 1px solid rgba(0, 0, 0, .2);
+                        @media (max-width:990px) {
+                            font-size: 8.5px;
+                            border-radius: 7px;
+    
+                        }
+                    }
+                }
+                .specification{
+                    font-size: 16px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    color: #919291;
+                    font-weight: 300;
+                    @media (max-width:990px) {
+                        font-size: 9.5px;
+                    }
+                }
+                
             }
-            .specification{
-                font-size: 16px;
-                white-space: nowrap;
-                overflow: hidden;
-                color: #919291;
-                font-weight: 300;
-            }
-            
         }
     }
 }

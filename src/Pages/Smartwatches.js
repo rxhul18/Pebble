@@ -7,7 +7,6 @@ function smartwatches(params) {
     return(
         <div className="cootanier main-page">
             <h2 className='m-3'>Digital Smart Watches</h2>
-            {/* <DigitalWatchCard /> */}
             <CommonCard apiData={DigitalWatchesApi}/>
         </div>
         // <Navbarr />

@@ -45,7 +45,7 @@ const DigitalWatchesApi = [
     },
     {
         mainImgUrl:"https://www.pebblecart.com/cdn/shop/files/1_22.jpg?v=1688818833",
-        productArray:[],
+        productArray:["https://www.pebblecart.com/cdn/shop/files/1_22.jpg?v=1688818833"],
         productTitle:"Pebble Cosmos Hues",
         specification:"1.96' (4.97cm) Infinite HD Display, 4 Straps Included in Box, Rotating Crown, BT Calling, AI Voice Assistance, 24x7 Health Monitoring, Multiple Watch Faces and Sports Modes",
         curPrice:"₹1,999.00",
@@ -294,7 +294,7 @@ const DigitalWatchesApi = [
     },
     {
         mainImgUrl:"https://www.pebblecart.com/cdn/shop/files/1_22.jpg?v=1688818833",
-        productArray:[],
+        productArray:["https://www.pebblecart.com/cdn/shop/files/1_22.jpg?v=1688818833"],
         productTitle:"Pebble Cosmos Hues",
         specification:"1.96' (4.97cm) Infinite HD Display, 4 Straps Included in Box, Rotating Crown, BT Calling, AI Voice Assistance, 24x7 Health Monitoring, Multiple Watch Faces and Sports Modes",
         curPrice:"₹1,999.00",

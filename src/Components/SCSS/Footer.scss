@@ -19,48 +19,76 @@
         }
     }
     .details{
-        p{
-            color: #00b9aa;
-            font-size: 18.5px;
-            font-weight: 800;
-            padding-bottom: 0.7rem;
-        }
-        ul{
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            li{
-                margin-bottom: 3px!important;
-                a{
-                    color: #fff;
-                    font-size: 14px;
-                    font-weight: 500;
-                    position: relative;
-                    text-decoration: none;
+        .accordion{
+            @media (max-width:767px) {
+                flex-direction: column;
+            }
+            .accordion-item{
+                background-color: transparent !important;
+                border: none;
+                p{
+                    @media (max-width:767px) {
+                        border-top: 1px solid white;
+                        padding-top: 15px;
+                    }
+                    margin: 0;
+                    button{
+                        text-transform: uppercase;
+                        padding: 0 0 15px 0;
+                        color: #00b9aa;
+                        font-size: 18.5px;
+                        font-weight: 800;
+                        padding-bottom: 0.7rem;
+                        background-color: transparent;
+                        box-shadow: none;
+                    }
                 }
-                a::before {
-                    content: '';
-                    position: absolute;
-                    width: 100%;
-                    height: 1.4px;
-                    border-radius: 2px;
-                    background-color: rgba(255, 255, 255, 0.541);
-                    bottom: -2px;
-                    left: 0;
-                    transform-origin: right;
-                    transform: scaleX(0);
-                    transition: transform .3s ease-in-out;
-                  }
-                  
-                  a:hover::before {
-                    transform-origin: left;
-                    transform: scaleX(1);
-                  }
+                .accordion-body{
+                    padding: 5px 0;
+                    ul{
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                        li{
+                            margin-bottom: 3px!important;
+                            button,a{
+                                color: #fff;
+                                font-size: 15px;
+                                font-weight: 500;
+                                position: relative;
+                                text-decoration: none;
+                                background-color: transparent;
+                                border: none;
+                            }
+                            button::before,a::before {
+                                content: '';
+                                position: absolute;
+                                width: 100%;
+                                height: 1.4px;
+                                border-radius: 2px;
+                                background-color: rgba(255, 255, 255, 0.541);
+                                bottom: -2px;
+                                left: 0;
+                                transform-origin: right;
+                                transform: scaleX(0);
+                                transition: transform .3s ease-in-out;
+                              }
+                              
+                              button:hover::before,a:hover::before {
+                                transform-origin: left;
+                                transform: scaleX(1);
+                              }
+                        }
+                    }
+                }
             }
         }
+        
     }
     .get-in-touch{
-        // padding-left: 2rem!important;    
+        @media (max-width:767px) {
+            padding-top: 20px;
+        } 
         p{
             color: #00b9aa;
             font-size: 18.5px;
@@ -77,6 +105,10 @@
                 color: #fff;
                 font-size: 15px;
                 font-weight: 400;
+                a{
+                    text-decoration: none;
+                    color:#b9b9b9;
+                }
             }
         }
         h5{

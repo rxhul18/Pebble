@@ -7,13 +7,12 @@ const CommonCard = ({apiData}) => {
         {apiData.map((data)=>{
             console.log(data.productArray);
         return(
-            <div className="col-lg-3 col-md-4 col-sm-6 col-6 pb-4" style={{padding:"0 9px"}}> 
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 pb-4" id='main-card'> 
                 <div className='main-launch rounded-3'>
                 <div className="launchCard rounded-3">
-                    {data.specialOffer && <p className="comman-child common-font mt-3">{data.offer}</p>}
+                    {data.specialOffer && <p className="comman-child common-font mt-2">{data.offer}</p>}
                     <img  className="img-fluid mx-auto comman-parent rounded-4 mb-3 mt-2" src={data.mainImgUrl}  alt="kuch nhi"/>
-
-                    <div className="d-flex multiphoto px-2">
+                    <div className="d-flex multiphoto px-2 mt-2">
                         <div className="col-3 col-md-2 col-lg-3 imgdiv">
                             {data.productArray[0] && <img src={data.productArray[0]} className="img-fluid mx-auto p-0" alt="kuch nhi"/>}
                         </div>

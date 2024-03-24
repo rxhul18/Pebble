@@ -9,7 +9,6 @@ import newLaunches from '../api/HomePage/newLaunches'
 import expPebble from '../api/HomePage/expPebble';
 import press from '../api/HomePage/press';
 import Offer from '../Components/Offer';
-import CommonCard from '../Components/CommonProCard'
 
 function Home(params) {
    return(
@@ -70,7 +69,7 @@ function Home(params) {
                 {/* <CommonCard apiData={newLaunches} /> */}
                 {newLaunches.map((data)=>{
                     return(
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 pb-5" style={{padding:"0 9px"}}> 
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-6 pb-5" id='main-card'> 
                             <div className='main-launch rounded-3'>
                             <div className="launchCard rounded-3">
                                 {data.specialOffer && <p className="comman-child common-font mt-3">{data.offer}</p>}
@@ -149,10 +148,10 @@ function Home(params) {
                                         <video src={data.videoUrl} controls></video>
                                     </div>
                                     <div className="col-md-6 col-sm-12 col-12 mt-3 d-flex align-items-center content-part">
-                                        <div className='col-md-5 col-sm-5 col-5 p-3'>
+                                        <div className='col-lg-5 col-md-6 col-sm-5 col-5 p-3'>
                                             <img src={data.imageUrl} className='img-fluid' alt='nothing'/>
                                         </div>
-                                        <div className='col-md-7 col-sm-7 col-7 d-block'>
+                                        <div className='col-lg-7 col-md-6 col-sm-7 col-7 d-block'>
                                             <div className='upper-part'>
                                                 <h3 className='title'>{data.h3Title}</h3>
                                                 <p>{data.para}</p>
