@@ -12,7 +12,7 @@ Pebble Clone is a project developed using React.JS for the front-end, incorporat
 3. Run command **__npm start__** in Terminal
 4. Explore and customize to your heart's content! 🥳
 # 
-**Github Deployed Link:**
+**Live Demo:**
 
 https://rxhul18.github.io/pebble/
 #
